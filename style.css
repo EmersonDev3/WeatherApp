@@ -19,10 +19,33 @@ body{
     height: 45rem;
     background: linear-gradient(135deg, #00feba, #5b548a);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  
 }
 
 .search{
-    background-color: #212121;
+
     width: 90%;
-    height: 70px
+    height: 70px;
+    margin-top:  2.8125rem;
+    display: flex;
+
+}
+
+.search .search-prompt {
+    height: 100%;
+    width: 23.125rem; /* Equivalente a 370px com font-size raiz de 16px */
+    background-color: #EBFDFB;
+    border-radius: 2.5rem;
+    opacity: 80% ;
+}
+
+.search .search-icon {
+    height: 4.3125rem;
+    width: 4.3125rem; /* Equivalente a 370px com font-size raiz de 16px */
+    background-color: #EBFDFB;
+    border-radius: 2.5rem;
+    margin-left: 1.2rem;
+    
 }
